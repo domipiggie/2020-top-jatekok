@@ -1,0 +1,47 @@
+body {
+    background-image: linear-gradient(to left bottom, #ffffff, #ede8ff, #dcd0ff, #ccb9ff, #bda1ff);
+}
+
+h1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+}
+
+.ranking {
+    font-weight: 800;
+    color: #ffa200;
+    font-size: large;
+    margin-top: 10px;
+}
+
+.gametitle {
+    font-weight: 500;
+    color: #2220b2;
+}
+
+.navtext {
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    font-size: large;
+}
+
+.serif {
+    font-family: 'PT Serif', serif;
+}
+
+.intro {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.navcustom {
+    margin-bottom: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.gametext {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
