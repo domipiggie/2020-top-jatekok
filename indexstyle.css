@@ -7,6 +7,16 @@ h1 {
     text-align: center;
 }
 
+img {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.imgdiv {
+    width: 100%;
+    text-align: center;
+}
+
 .ranking {
     font-weight: 800;
     color: #ffa200;
@@ -44,4 +54,22 @@ h1 {
 .gametext {
     margin-left: 20px;
     margin-bottom: 10px;
+}
+
+.animate-right {
+    position: relative;
+    -webkit-animation-name: animateright;
+    -webkit-animation-duration: 1s;
+    animation-name: animateright;
+    animation-duration: 1s
+}
+  
+@-webkit-keyframes animateright {
+    from {right:105%} 
+    to {right:0%}
+}
+  
+@keyframes animateright { 
+    from {right:105%} 
+    to {right:0%}
 }

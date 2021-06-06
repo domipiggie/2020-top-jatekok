@@ -45,3 +45,21 @@ h1 {
     margin-left: 20px;
     margin-bottom: 10px;
 }
+
+.animate-left {
+    position: relative;
+    -webkit-animation-name: animateleft;
+    -webkit-animation-duration: 1s;
+    animation-name: animateleft;
+    animation-duration: 1s
+}
+  
+@-webkit-keyframes animateleft {
+    from {left:105%} 
+    to {left:0%}
+}
+  
+@keyframes animateright { 
+    from {left:105%} 
+    to {left:0%}
+}
