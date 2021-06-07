@@ -7,16 +7,14 @@ h1 {
     text-align: center;
 }
 
-.ranking {
-    font-weight: 800;
-    color: #ffa200;
-    font-size: large;
-    margin-top: 10px;
+img {
+    display: inline-block;
+    margin-bottom: 30px;
 }
 
-.gametitle {
-    font-weight: 500;
-    color: #2220b2;
+.imgdiv {
+    width: 100%;
+    text-align: center;
 }
 
 .navtext {
@@ -29,11 +27,6 @@ h1 {
     font-family: 'PT Serif', serif;
 }
 
-.intro {
-    font-style: italic;
-    margin-bottom: 20px;
-}
-
 .navcustom {
     margin-bottom: 50px;
     position: sticky;
@@ -42,7 +35,6 @@ h1 {
 }
 
 .gametext {
-    margin-left: 20px;
     margin-bottom: 10px;
 }
 
@@ -59,7 +51,7 @@ h1 {
     to {left:0%}
 }
   
-@keyframes animateright { 
+@keyframes animateleft { 
     from {left:105%} 
     to {left:0%}
 }
