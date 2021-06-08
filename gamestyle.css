@@ -7,6 +7,7 @@ h1 {
     text-align: center;
 }
 
+<<<<<<< HEAD
 a:link {
     color: white;
     background-color: transparent;
@@ -28,6 +29,8 @@ a:active {
     text-decoration: underline;
 }
 
+=======
+>>>>>>> e0f595efc1015dc4abe37bacc30c9d59c150571d
 img {
     display: inline-block;
     margin-bottom: 30px;
