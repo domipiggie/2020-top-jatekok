@@ -7,16 +7,35 @@ h1 {
     text-align: center;
 }
 
-.ranking {
-    font-weight: 800;
-    color: #ffa200;
-    font-size: large;
-    margin-top: 10px;
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #bda1ff;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
-.gametitle {
-    font-weight: 500;
-    color: #2220b2;
+img {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.imgdiv {
+    width: 100%;
+    text-align: center;
 }
 
 .navtext {
@@ -29,11 +48,6 @@ h1 {
     font-family: 'PT Serif', serif;
 }
 
-.intro {
-    font-style: italic;
-    margin-bottom: 20px;
-}
-
 .navcustom {
     margin-bottom: 50px;
     position: sticky;
@@ -42,7 +56,6 @@ h1 {
 }
 
 .gametext {
-    margin-left: 20px;
     margin-bottom: 10px;
 }
 
@@ -59,7 +72,7 @@ h1 {
     to {left:0%}
 }
   
-@keyframes animateright { 
+@keyframes animateleft { 
     from {left:105%} 
     to {left:0%}
 }
